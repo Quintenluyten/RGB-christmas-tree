@@ -1,6 +1,6 @@
 # RGB-christmas-tree
 ## Overview
-<img src="https://github.com/Quintenluyten/RGB-christmas-tree/tree/main/images/Christmas_tree_1.jpeg" width="60%" height="60%">
+![Assembled example](/images/Christmas_tree_1.jpeg?raw=true "Assembled example")
 
 A PCB Christmas tree. An Attiny402 microcontroller controls the LEDs through 3 pins. The LEDs are attached in random order to the 3 control pins, creating a colorful light pattern. This project was designed using easyeda. Visit https://oshwlab.com/quintenluyten/magnetotronics for more information on the hardware design
 
