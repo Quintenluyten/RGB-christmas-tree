@@ -9,7 +9,7 @@ A PCB Christmas tree. An Attiny402 microcontroller controls the LEDs through 3 p
 - You should indicate when ordering that there are three different designs on the PCB panel
 - The ATtiny402 can be replaced with pin compatible microcontrollers such as the ATtiny202
 - The 0606 (1616 Metric) RGB LEDs can be quite challenging to solder by hand. Either pay for assembly with your PCB order, or use a hot plate. When performing manual assembly, I found it works best to add no-clean flux with a brush, hold the RGB Led in position using tweezers, and tap the pads with a soldering iron to make the connection, without adding any solder beforehand.
-- Using an Arduino as a JTAG2UPDI adapter, the ATtiny can be programmed using the Arduino IDE and the megaTinyCore library. For more information, see https://github.com/SpenceKonde/megaTinyCore. The Arduino library necessary for installation requires the following json file to be added to the "Additional board manager URLs": http://drazzy.com/package_drazzy.com_index.json
+- Using an Arduino as a JTAG2UPDI adapter, the ATtiny can be programmed using the Arduino IDE and the megaTinyCore library. For more information, see https://github.com/ElTangas/jtag2updi and https://github.com/SpenceKonde/megaTinyCore. The Arduino library necessary for installation requires the following json file to be added to the "Additional board manager URLs": http://drazzy.com/package_drazzy.com_index.json
 - The programming header near the ATtiny does not need to be soldered. You can make your own programmer with a 3-pin male header. The pinout of the programming port is: GND (square pad) - UPDI - VDD. VDD can be anywhere between 1.8V - 5.5V for programming
 - For succesful illumination of the LEDs, VDD should be 3V-5.5V
 
